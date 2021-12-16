@@ -77,7 +77,7 @@
       <div class="form-group row">
         <label for="inputIdhome" class="control-label col-sm-2">บ้านเลขที่<span>*</span></label>
         <div class="col-sm-2">
-          <input type="number" class="form-control" id="inputIdhome" required>
+          <input type="textr" class="form-control" id="inputIdhome" required>
         </div>
         <label for="inputIdvillage" class="form-label ">หมู่ที่่<span>*</span></label>
         <div class="col-sm-1">
