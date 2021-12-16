@@ -29,7 +29,7 @@
       <div class="form-group row">
         <label for="inputIdcard" class="control-label col-sm-2">เลขบัตรประชาชน<span>*</span></label>
         <div class="col-sm-4">
-          <input type="text" class="form-control" id="inputIdcard" placeholder="เลข 13 หลัก" required>
+          <input type="text" class="form-control" id="inputIdcard"  placeholder="เลข 13 หลัก" required>
         </div>
       </div>
 
@@ -77,7 +77,7 @@
       <div class="form-group row">
         <label for="inputIdhome" class="control-label col-sm-2">บ้านเลขที่<span>*</span></label>
         <div class="col-sm-2">
-          <input type="textr" class="form-control" id="inputIdhome" required>
+          <input type="number" class="form-control" id="inputIdhome" required>
         </div>
         <label for="inputIdvillage" class="form-label ">หมู่ที่่<span>*</span></label>
         <div class="col-sm-1">
@@ -92,17 +92,15 @@
         <label for="inputLocality" class="control-label col-sm-2">ตำบล/แขวง<span>*</span></label>
         <div class="col-sm-3">
           <input type="text" class="form-control" id="inputLocality" required>
-        </div>
       </div>
-      <div class="form-group row">
-        <label for="inputDistrict" class="control-label col-sm-2">อำเภอ/เขต<span>*</span></label>
+        <label for="inputDistrict" class="form-label " >อำเภอ/เขต<span>*</span></label>
         <div class="col-sm-3">
           <input type="text" class="form-control" id="inputDistrict" required>
-        </div>
       </div>
+    </div>
       <div class="form-group row">
         <label for="inputProvince" class="control-label col-sm-2">จังหวัด<span>*</span></label>
-        <div class="col-md-2">
+        <div class="col-md-3">
           <select id="inputProvince" class="form-control">
             <option value="Province1" selected>นครศรีธรรมราช</option>
             <option value="Province2">เชี่ยงใหม่</option>
