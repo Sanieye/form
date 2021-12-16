@@ -29,7 +29,7 @@
       <div class="form-group row">
         <label for="inputIdcard" class="control-label col-sm-2">เลขบัตรประชาชน<span>*</span></label>
         <div class="col-sm-4">
-          <input type="number" class="form-control" id="inputIdcard" placeholder="เลข 13 หลัก" required>
+          <input type="text" class="form-control" id="inputIdcard" placeholder="เลข 13 หลัก" required>
         </div>
       </div>
 
